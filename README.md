@@ -94,6 +94,6 @@ npm run preview
 
 ## Author
 
-**Sathyasree**
+**SathyaSree Papabathina**
 
-Portfolio website developed as a professional personal portfolio project.
+Personal portfolio website developed and maintained as part of TRIOPATH Careers.
