@@ -21,7 +21,7 @@ import Contact from "@/pages/Contact";
 function App() {
 	return (
 		<ThemeProvider>
-			<BrowserRouter>
+			<BrowserRouter basename="/SathyaSree-Portfolio">
 				{/* Global cursor effects */}
 				<SplashCursor
 					DENSITY_DISSIPATION={5}
