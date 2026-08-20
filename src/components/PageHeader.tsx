@@ -6,7 +6,7 @@ interface PageHeaderProps {
 
 export default function PageHeader({ label, title, subtitle }: PageHeaderProps) {
   return (
-    <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-20">
+    <section className="relative overflow-hidden pt-32 pb-14 md:pt-40 md:pb-20">
       {/* Decorative shape */}
       <div className="pointer-events-none absolute right-0 top-24 h-64 w-64 rounded-full bg-wine/5 blur-3xl dark:bg-terracotta/10" />
       <div className="pointer-events-none absolute -left-20 top-40 h-48 w-48 rounded-full bg-rose/5 blur-3xl" />

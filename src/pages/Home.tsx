@@ -182,15 +182,15 @@ export default function Home() {
               </Link>
 
               <a
-                href="/Sathyasree_Resume.pdf"
-                download="Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-charcoal/25 px-8 py-4 text-sm font-medium uppercase tracking-wide text-charcoal transition-all duration-300 hover:-translate-y-1 hover:border-wine hover:text-wine dark:border-cream/25 dark:text-cream dark:hover:border-terracotta dark:hover:text-terracotta"
-              >
-                <Download size={16} strokeWidth={1.5} />
-                Download Resume
-              </a>
+  href={`${import.meta.env.BASE_URL}SathyaSree_Resume.pdf`}
+  download="SathyaSree_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center gap-2 rounded-lg border border-charcoal/25 px-8 py-4 text-sm font-medium uppercase tracking-wide text-charcoal transition-all duration-300 hover:-translate-y-1 hover:border-wine hover:text-wine dark:border-cream/25 dark:text-cream dark:hover:border-terracotta dark:hover:text-terracotta"
+>
+  <Download size={16} strokeWidth={1.5} />
+  Download Resume
+</a>
             </div>
           </div>
 
