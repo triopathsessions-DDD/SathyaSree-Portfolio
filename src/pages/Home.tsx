@@ -164,7 +164,8 @@ export default function Home() {
 
             {/* Tagline */}
             <p className="mt-4 max-w-xl text-base font-normal leading-relaxed text-charcoal/75 opacity-0 animate-fade-up animation-delay-300 dark:text-cream/70 md:text-lg">
-              {profile.tagline}
+              {/* {profile.tagline} */}
+              I’m a fashion designer who works where creativity meets real-world execution — from developing concepts and collections to shaping how they are experienced in a retail space. I’m driven by strong visual storytelling, thoughtful details, and design that has a clear purpose.
             </p>
 
             {/* CTA Buttons */}
