@@ -4,6 +4,8 @@ type BookPage = {
 	number?: string;
 	title?: string;
 	text?: string;
+		mobileText?: string;
+
 	largeNumber?: string;
 };
 
@@ -925,7 +927,7 @@ function PageContent({
 					</h2>
 				)}
 
-				{page.text && (
+				{/* {page.text && (
 					<p
 						className="
 							mt-6
@@ -942,7 +944,46 @@ function PageContent({
 					>
 						{page.text}
 					</p>
-				)}
+				)} */}
+
+				{page.text && (
+	<>
+		{/* Desktop / Tablet */}
+		<p
+			className="
+				mt-6
+				max-w-[95%]
+				whitespace-pre-line
+				font-serif
+				text-xs
+				leading-[1.65]
+				text-[#444]
+				sm:text-sm
+				md:text-[15px]
+				md:leading-[1.7]
+				hidden md:block
+			"
+		>
+			{page.text}
+		</p>
+
+		{/* Mobile */}
+		<p
+			className="
+				mt-5
+				max-w-full
+				whitespace-pre-line
+				font-serif
+				text-[8.5px]
+				leading-[1.55]
+				text-[#444]
+				block md:hidden
+			"
+		>
+			{page.mobileText || page.text}
+		</p>
+	</>
+)}
 			</div>
 		</div>
 	);
