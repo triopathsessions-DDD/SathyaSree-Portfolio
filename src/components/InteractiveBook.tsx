@@ -959,7 +959,8 @@ function PageContent({
 				leading-[1.65]
 				text-[#444]
 				sm:text-sm
-				md:text-[15px]
+				md:text-[10px]
+				lg:text-[15px]
 				md:leading-[1.7]
 				hidden md:block
 			"
