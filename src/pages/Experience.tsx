@@ -101,7 +101,7 @@ import { papaverineCollection } from "@/components/design_pic";
 
 export default function Experience() {
 	const [activeImage, setActiveImage] = useState(
-		papaverineCollection.images[0],
+		papaverineCollection.images[1],
 	);
 
 	const handlePrevious = () => {
@@ -136,7 +136,7 @@ export default function Experience() {
 			<PageHeader
 				label="Experience"
 				title="The Journey"
-				subtitle="Professional experience shaping visual merchandising, retail operations, and team leadership."
+				subtitle="Professional experience in visual merchandising and fashion retail, combining creative display concepts, seasonal styling, planogram execution, brand presentation, retail operations, and team leadership to create engaging and commercially effective customer experiences."
 			/>
 
 			{/* Work Button */}

@@ -170,10 +170,10 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="mt-8 flex w-full flex-col items-stretch gap-4 opacity-0 animate-fade-up animation-delay-500 sm:w-auto sm:flex-row sm:items-center sm:gap-6">
               <Link
-                to="/about"
+                to="/digital-display"
                 className="group inline-flex items-center justify-center gap-2 rounded-lg border bg-wine px-8 py-4 text-sm font-medium uppercase tracking-wide text-cream transition-all duration-500 hover:-translate-y-1 hover:bg-wine-deep hover:text-[14.5px] dark:border-white dark:bg-terracotta dark:text-charcoal-deep dark:hover:border-terracotta dark:hover:bg-white"
               >
-                Know About Me
+                View My Work
                 <ArrowRight
                   size={16}
                   strokeWidth={1.5}
@@ -186,10 +186,10 @@ export default function Home() {
   download="SathyaSree_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-flex items-center justify-center gap-2 rounded-lg border border-charcoal/25 px-8 py-4 text-sm font-medium uppercase tracking-wide text-charcoal transition-all duration-300 hover:-translate-y-1 hover:border-wine hover:text-wine dark:border-cream/25 dark:text-cream dark:hover:border-terracotta dark:hover:text-terracotta"
+  className="inline-flex items-center justify-center gap-2 rounded-lg border border-charcoal/25 px-8 py-4 text-md font-medium uppercase tracking-wide text-charcoal transition-all duration-300 hover:-translate-y-1 hover:border-wine hover:text-wine dark:border-cream/25 dark:text-cream dark:hover:border-terracotta dark:hover:text-terracotta"
 >
-  <Download size={16} strokeWidth={1.5} />
-  Download Resume
+  Download CV
+  <Download size={22} strokeWidth={1.5} />
 </a>
             </div>
           </div>

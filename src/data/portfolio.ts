@@ -222,5 +222,5 @@ export const navLinks = [
   { label: 'Projects', path: '/projects' },
   { label: 'Skills', path: '/skills' },
   { label: 'Education', path: '/education' },
-  // { label: 'Contact', path: '/contact' },
+  { label: 'DigitalDisplay', path: '/digital-display' },
 ];
